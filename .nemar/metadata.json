@@ -2,11 +2,43 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Probabilistic Selection and Depression",
+  "description": "This dataset comprises EEG recordings from 121 college-age participants (122 collected, 1 excluded) performing a probabilistic selection task, stratified by depression symptomatology as measured by the Beck Depression Inventory. Collected between 2008-2010 in the lab of John J.B. Allen at the University of Arizona, the data were acquired to investigate neural correlates of decision-making and reward processing in relation to depressive symptoms. Some participants underwent clinical interviews to confirm depression status. NOTE: Data quality considerations include potential mislabeling of HEOG/VEOG channels in some subjects, and some files have had channels interpolated already with no raw data available for reversion. Subject 544 was excluded due to unstable BDI scores between pre-assessment and test session.",
+  "methods_description": "EEG data were collected during a probabilistic selection task programmed in DMDX. Participants were selected based on Beck Depression Inventory scores to represent high and low depression groups. Some participants received clinical interviews for depression confirmation. Data were collected circa 2008-2010 in the laboratory of John J.B. Allen at the University of Arizona.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "James F Cavanagh  jcavanagh@unm.edu": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Depression",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
+    },
+    {
+      "term": "probabilistic learning"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "reward processing"
+    },
+    {
+      "term": "Beck Depression Inventory"
+    },
+    {
+      "term": "psychopathology",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001523"
+    },
+    {
+      "term": "clinical psychology"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003474.v1.1.0",
@@ -29,12 +61,12 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "17.9 GB (294 files)"
   ],
   "formats": [
     ".docx",
@@ -48,46 +80,8 @@
     ".set",
     ".tsv",
     ".wav",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises EEG recordings from 122 college-age participants performing a probabilistic selection task, stratified by depression symptomatology as measured by the Beck Depression Inventory. Collected between 2008-2010 in the lab of John J.B. Allen at the University of Arizona, the data were acquired to investigate neural correlates of decision-making and reward processing in relation to depressive symptoms. Some participants underwent clinical interviews to confirm depression status. NOTE: Data quality considerations - for some subjects, HEOG and VEOG may be mislabeled as each other. Some files have had channels pre-interpolated with no raw data available for reversion. Subject 544 was excluded due to unstable BDI scores between pre-assessment and test session.",
-  "methods_description": "EEG data were collected during a probabilistic selection task programmed in DMDX. Participants were selected based on Beck Depression Inventory scores to represent high and low depression groups. Some participants received clinical interviews for depression assessment. Data were collected between 2008-2010.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Depression",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
-    },
-    {
-      "term": "Beck Depression Inventory"
-    },
-    {
-      "term": "probabilistic selection task"
-    },
-    {
-      "term": "probabilistic learning"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "reward processing"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "clinical assessment"
-    },
-    {
-      "term": "DMDX"
-    },
-    {
-      "term": "college students"
-    }
+    ".xlsx",
+    ".yml"
   ],
   "source_hash": "a6d74a26a474edf0442aaa53757f1b25fba17af493ce3ed09ff7e52b0eaa52ee"
 }
