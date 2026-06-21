@@ -1,0 +1,4 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003474-blue)](https://doi.org/10.82901/nemar.on003474)
+
+Probabilistic selection task with 122 college-age participants.  Task included in DMDX programming language.  Data collected circa 2008-2010 in John J.B. Allen lab at U Arizona.  Subjects scored reliably high or low in Beck Depression Inventory.  Some have been clinically interviewed.  For some subjects (maybe all?), HEOG and VEOG may be mis-labeled as the other.  Some files have had some channels interpolated already.  There are no raw data to revert to instead... Note subj 544 is not used b/c they had unstable BDI from pre-assessment to test session.  Code is included to re-create this paper: DOI: 10.1162/cpsy_a_00024
+ - James F Cavanagh 01/11/2021
